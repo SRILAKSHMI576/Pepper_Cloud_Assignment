@@ -107,3 +107,8 @@
   color: grey;
   margin-top: -10px;
 }
+.footer {
+  text-decoration: none;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}

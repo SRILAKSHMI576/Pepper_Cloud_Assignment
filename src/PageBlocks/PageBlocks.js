@@ -74,6 +74,9 @@ function PageBlocks() {
           <p className="para-10">Dana G Smith in Elemental</p>
           <p className="para-11">Aug 15. 3 min read </p>
         </div>
+        <a href="medium.com" className="footer">
+          SEE ALL FEATURES >>
+        </a>
       </div>
     </div>
   );
