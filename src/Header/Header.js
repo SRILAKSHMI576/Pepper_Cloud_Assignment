@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function BlogPages() {
+function Header() {
   return (
     <div>
       <div className="title">Pepper Cloud Private Limited</div>
@@ -9,4 +9,4 @@ function BlogPages() {
   );
 }
 
-export default BlogPages;
+export default Header;

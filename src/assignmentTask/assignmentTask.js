@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import BlogPages from "../BlogPages/BlogPages";
+import Header from "../Header/Header";
 
 class AssignmentTask extends Component {
   render() {
     return (
       <div>
-        <BlogPages />
+        <Header />
       </div>
     );
   }
