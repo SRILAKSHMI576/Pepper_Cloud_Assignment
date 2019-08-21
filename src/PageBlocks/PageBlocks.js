@@ -9,6 +9,11 @@ function PageBlocks() {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGFGyTTAAYg5v_oRjooBD46SiO1FWvCt8adbB9ytvm4DZ6JO48QQ"
           alt="lion"
         />
+        <h3 className="para-1">
+          The Shy Person’s Guide to Winning <br />
+          Friends and Influencing People
+        </h3>
+        <p className="para-2">Kindness is a superpower</p>
       </div>
     </div>
   );

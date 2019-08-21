@@ -30,4 +30,14 @@
   width: 450px;
   height: 151px;
   margin-left: 60px;
+  cursor: pointer;
+}
+.para-1 {
+  margin-left: 132px;
+}
+.para-2 {
+  margin-left: 132px;
+  margin-top: -10px;
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
 }
