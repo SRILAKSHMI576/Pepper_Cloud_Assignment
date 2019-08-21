@@ -53,3 +53,29 @@
   color: grey;
   font-size: 12px;
 }
+.main-header {
+  display: flex;
+}
+.image-2 {
+  margin-top: 32px;
+  width: 101px;
+  height: 100px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.para-5 {
+  margin-left: 142px;
+  margin-top: -105px;
+}
+.para-6 {
+  margin-left: 142px;
+  margin-top: 40px;
+  color: grey;
+  font-size: 12px;
+}
+.para-7 {
+  margin-left: 142px;
+  margin-top: -13px;
+  color: grey;
+  font-size: 12px;
+}
