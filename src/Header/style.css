@@ -25,3 +25,9 @@
   font-style: italic;
   cursor: pointer;
 }
+.image-1 {
+  margin-top: 32px;
+  width: 450px;
+  height: 151px;
+  margin-left: 60px;
+}
