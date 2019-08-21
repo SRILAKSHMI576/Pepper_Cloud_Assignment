@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import PageBlocks from "../PageBlocks/PageBlocks";
 
 function Header() {
   return (
@@ -11,6 +12,7 @@ function Header() {
       <a href="https://medium.com" className="home">
         Home
       </a>
+      <PageBlocks />
     </div>
   );
 }
