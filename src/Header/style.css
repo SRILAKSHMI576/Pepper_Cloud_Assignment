@@ -69,7 +69,7 @@
 }
 .para-6 {
   margin-left: 142px;
-  margin-top: 40px;
+  margin-top: 17px;
   color: grey;
   font-size: 12px;
 }
@@ -78,4 +78,32 @@
   margin-top: -13px;
   color: grey;
   font-size: 12px;
+}
+.main-header-1 {
+  display: flex;
+}
+.image-3 {
+  margin-left: 40px;
+  width: 324px;
+  height: 149px;
+  margin-top: 32px;
+}
+.para-8 {
+  margin-left: 40px;
+}
+.para-9 {
+  color: grey;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-top: -15px;
+}
+.para-10 {
+  margin-left: 40px;
+  font-size: 12px;
+}
+.para-11 {
+  margin-left: 40px;
+  font-size: 12px;
+  color: grey;
+  margin-top: -10px;
 }
