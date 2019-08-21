@@ -14,6 +14,8 @@ function PageBlocks() {
           Friends and Influencing People
         </h3>
         <p className="para-2">Kindness is a superpower</p>
+        <p className="para-3">Michael Thompson in Forge</p>
+        <p className="para-4">Aug 13. 4 min read </p>
       </div>
     </div>
   );

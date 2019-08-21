@@ -41,3 +41,15 @@
   font-family: "Courier New", Courier, monospace;
   color: grey;
 }
+.para-3 {
+  margin-left: 132px;
+  margin-top: -5px;
+  color: grey;
+  font-size: 12px;
+}
+.para-4 {
+  margin-left: 132px;
+  margin-top: -13px;
+  color: grey;
+  font-size: 12px;
+}
