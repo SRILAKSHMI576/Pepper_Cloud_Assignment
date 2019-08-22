@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 import PageBlocks from "../PageBlocks/PageBlocks";
-import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
