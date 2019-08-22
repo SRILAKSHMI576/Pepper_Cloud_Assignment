@@ -1,18 +1,13 @@
 import React from "react";
 import "./style.css";
 
-function StoryDescription() {
+function StoryDescription(props) {
   return (
     <div>
       <center>
-        <h3>
-          The Shy Person’s Guide to Winning Friends and Influencing People
-        </h3>
+        <h3>{props.title}</h3>
 
-        <img
-          className="img"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzbXw0IkEFrVGArPeMnfhwBf74hHj62GoOZtsXvCijS7stjuQsjw"
-        />
+        <img className="img" src={props.img} />
         <p>
           Single page websites are great because they dynamically update as the
           <br />
