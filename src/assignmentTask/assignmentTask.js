@@ -8,6 +8,7 @@ class AssignmentTask extends Component {
       <div>
         <Header />
         <PageBlocks />
+        <PageBlocks />
       </div>
     );
   }
