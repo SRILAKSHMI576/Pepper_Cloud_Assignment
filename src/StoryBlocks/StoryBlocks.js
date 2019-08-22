@@ -6,18 +6,18 @@ class StoryBlocks extends Component {
   constructor() {
     super();
     this.state = {
-      text: "false"
+      result: false
     };
-    this.alertText = this.alertText.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
-  alertText(e) {
+  handleChange(e) {
     this.setState({
-      text: true
+      result: true
     });
   }
   showDescription(e) {
-    if (this.state.text) {
+    if (this.state.result) {
       return <Redirect to="/story-description" />;
     }
   }
@@ -25,7 +25,7 @@ class StoryBlocks extends Component {
     return (
       <div className="main-header">
         {this.showDescription()}
-        <div onClick={this.alertText}>
+        <div onClick={this.handleChange}>
           <img className="image-1" src={this.props.img} alt="lion" />
           <h3 className="para-1">{this.props.title}</h3>
           <p className="para-2">{this.props.desciption}</p>
