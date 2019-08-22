@@ -5,9 +5,7 @@ function StoryDescription(props) {
   return (
     <div>
       <center>
-        <h3>
-          The Shy Person’s Guide to Winning Friends and Influencing People
-        </h3>
+        <h3>{this.props.location.state.title}</h3>
 
         <img
           className="img"
