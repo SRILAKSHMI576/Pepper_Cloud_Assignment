@@ -23,10 +23,8 @@ class StoryBlocks extends Component {
           to={
             ((pathname = "/story-description"),
             (state = {
-              title:
-                " The Shy Person’s Guide to Winning Friends and Influencing People",
-              img:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzbXw0IkEFrVGArPeMnfhwBf74hHj62GoOZtsXvCijS7stjuQsjw"
+              title: this.props.title,
+              img: this.props.img
             }))
           }
         />
