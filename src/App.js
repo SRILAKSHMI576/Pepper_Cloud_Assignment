@@ -20,7 +20,7 @@ function App() {
 
         <Route path="/stories-dashboard" component={StoriesDashboard} />
         <Route path="/story-create" component={StoryPage} />
-        <Route path="story-description" component={StoryDescription} />
+        <Route path="/story-description" component={StoryDescription} />
       </Router>
     </div>
   );
