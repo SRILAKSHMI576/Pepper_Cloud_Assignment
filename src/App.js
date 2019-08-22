@@ -4,6 +4,7 @@ import StoryPage from "./StoryPage/StoryPage";
 import AssignmentTask from "./assignmentTask/assignmentTask";
 import PageBlocks from "./PageBlocks/PageBlocks";
 import Header from "./Header/Header";
+import "./style.css";
 
 function App() {
   return (
@@ -11,18 +12,11 @@ function App() {
       <Router>
         <div className="links">
           <Link to="/assignment">Home</Link>
-          <br />
-          <Link to="/header">Header</Link>
-          <br />
-          <Link to="/page-blocks">Blogs</Link>
-          <br />
           <Link to="/story-create">Create Story</Link>
         </div>
 
-        <Route path="assignment" component={AssignmentTask} />
-        <Route path="/header" component={Header} />
+        <Route path="/assignment" component={AssignmentTask} />
         <Route path="/story-create" component={StoryPage} />
-        <Route path="/page-blocks" component={PageBlocks} />
       </Router>
     </div>
   );
