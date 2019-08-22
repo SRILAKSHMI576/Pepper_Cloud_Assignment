@@ -11,7 +11,9 @@ function App() {
     <div className="router">
       <Router>
         <div className="links">
-          <Link to="/assignment">Home</Link>
+          <Link to="/assignment" className="home">
+            Home
+          </Link>
           <Link to="/story-create" className="create">
             Create Story
           </Link>
