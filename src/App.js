@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import StoryPage from "./StoryPage/StoryPage";
 import "./style.css";
 import StoriesDashboard from "./StoriesDashboard/StoriesDashboard";
+import StoryDescription from "./StoryDescription/StoryDescription";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 
         <Route path="/stories-dashboard" component={StoriesDashboard} />
         <Route path="/story-create" component={StoryPage} />
+        <Route path="story-description" component={StoryDescription} />
       </Router>
     </div>
   );
