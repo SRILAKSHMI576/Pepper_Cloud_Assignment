@@ -5,8 +5,8 @@ import ReactRouter from "./ReactRouter/ReactRouter";
 function App() {
   return (
     <div>
-      {/* {<AssignmentTask />} */}
-      {<ReactRouter />}
+      <AssignmentTask />
+      <ReactRouter />
     </div>
   );
 }

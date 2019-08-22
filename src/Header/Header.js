@@ -1,19 +1,9 @@
 import React, { Component } from "react";
 import "./style.css";
 import PageBlocks from "../PageBlocks/PageBlocks";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
-  constructor() {
-    super();
-    this.state = {
-      story: "story"
-    };
-  }
-  openStory = event => {
-    this.setState({
-      story: event.target.value
-    });
-  };
   render() {
     return (
       <div className="header">
@@ -24,10 +14,10 @@ class Header extends Component {
         <a href="https://medium.com" className="home">
           Home
         </a>
-        <button className="button" onClick={this.openStory}>
-          Create story
-        </button>
         <PageBlocks />
+        <Link to="/story-create" className="button">
+          Create story
+        </Link>
       </div>
     );
   }
