@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./style.css";
-import PageBlocks from "../PageBlocks/PageBlocks";
 
 class Header extends Component {
   render() {
@@ -13,10 +12,6 @@ class Header extends Component {
         <a href="https://medium.com" className="home">
           Home
         </a>
-        <PageBlocks />
-        <Link to="/story-create" className="button">
-          Create story
-        </Link>
       </div>
     );
   }
