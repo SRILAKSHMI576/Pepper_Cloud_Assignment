@@ -3,6 +3,17 @@ import "./style.css";
 import PageBlocks from "../PageBlocks/PageBlocks";
 
 class Header extends Component {
+  constructor() {
+    super();
+    this.state = {
+      story: "story"
+    };
+  }
+  openStory = event => {
+    this.setState({
+      story: event.target.value
+    });
+  };
   render() {
     return (
       <div className="header">
@@ -13,7 +24,9 @@ class Header extends Component {
         <a href="https://medium.com" className="home">
           Home
         </a>
-        <button className="button">Create story</button>
+        <button className="button" onClick={this.openStory}>
+          Create story
+        </button>
         <PageBlocks />
       </div>
     );
