@@ -20,17 +20,18 @@ class StoryBlocks extends Component {
     if (this.state.result) {
       return (
         <Redirect
-          to={
-            ((pathname = "/story-description"),
-            (state = {
+          to={{
+            pathname: "/story-description",
+            state: {
               title: this.props.title,
               img: this.props.img
-            }))
-          }
+            }
+          }}
         />
       );
     }
   }
+
   render() {
     return (
       <div className="main-header">
