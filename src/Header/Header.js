@@ -13,6 +13,7 @@ class Header extends Component {
         <a href="https://medium.com" className="home">
           Home
         </a>
+        <button>Create story</button>
         <PageBlocks />
       </div>
     );
