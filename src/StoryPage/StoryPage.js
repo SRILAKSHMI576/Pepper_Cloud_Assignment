@@ -1,5 +1,12 @@
 import React from "react";
+import "./style.css";
 
 function StoryPage() {
-  return <div>hi</div>;
+  return (
+    <div>
+      <p className="title-1">Title</p>
+    </div>
+  );
 }
+
+export default StoryPage;
