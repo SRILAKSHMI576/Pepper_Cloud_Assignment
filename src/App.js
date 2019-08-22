@@ -12,7 +12,9 @@ function App() {
       <Router>
         <div className="links">
           <Link to="/assignment">Home</Link>
-          <Link to="/story-create">Create Story</Link>
+          <Link to="/story-create" className="create">
+            Create Story
+          </Link>
         </div>
 
         <Route path="/assignment" component={AssignmentTask} />
