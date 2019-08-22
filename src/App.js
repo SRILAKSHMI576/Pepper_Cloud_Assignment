@@ -5,7 +5,7 @@ import ReactRouter from "./ReactRouter/ReactRouter";
 function App() {
   return (
     <div>
-      {/* <AssignmentTask /> */}
+      {/* {<AssignmentTask />} */}
       {<ReactRouter />}
     </div>
   );

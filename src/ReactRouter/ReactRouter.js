@@ -7,7 +7,7 @@ function ReactRouter() {
     <div>
       <Router>
         <div>
-          <Route path="/story-page" component={StoryPage} />
+          <Route path="/story-create" component={StoryPage} />
         </div>
       </Router>
     </div>
