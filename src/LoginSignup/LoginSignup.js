@@ -4,10 +4,10 @@ import { Redirect } from "react-router-dom";
 
 class LoginSignup extends Component {
   constructor() {
-    super(); 
+    super();
     this.handleClick = this.handleClick.bind(this);
   }
-}
+
   state = {
     isLoggedIn: false,
     username: "name",
@@ -23,24 +23,18 @@ class LoginSignup extends Component {
       password: e.target.value
     });
   };
-  handleClick() {
+  handleClick = e => {
     this.setState(prevState => {
       return {
         isLoggedIn: !prevState.isLoggedIn
       };
     });
-  }
-  showHome = (e) => {
+  };
+  showHome = e => {
     if (this.state.isLoggedIn) {
-      return (
-        <Redirect
-          to={{
-            pathname: "/stories-dashboard"
-          }}
-        />
-      );
+      return <Redirect to="/stories-dashboard" />;
     }
-  }
+  };
   render() {
     let displayText = this.state.isLoggedIn ? (
       ""
