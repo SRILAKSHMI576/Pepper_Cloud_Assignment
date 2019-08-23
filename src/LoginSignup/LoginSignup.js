@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css";
 
 class LoginSignup extends Component {
   constructor() {
@@ -20,7 +21,7 @@ class LoginSignup extends Component {
     let displayText = this.state.isLoggedIn ? (
       "hi"
     ) : (
-      <div>
+      <div className="login">
         <center>
           <p>
             Username:
@@ -30,7 +31,7 @@ class LoginSignup extends Component {
             Password:
             <input type="password" placeholder="Username" required />
           </p>
-          <button>Submit</button>
+          <button className="submit">Submit</button>
         </center>
       </div>
     );
