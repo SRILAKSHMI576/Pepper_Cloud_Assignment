@@ -4,6 +4,7 @@ import StoryPage from "./StoryPage/StoryPage";
 import "./style.css";
 import StoriesDashboard from "./StoriesDashboard/StoriesDashboard";
 import StoryDescription from "./StoryDescription/StoryDescription";
+import LogInPage from "./LoginPage/LoginPage";
 
 function App() {
   return (
@@ -16,11 +17,15 @@ function App() {
           <Link to="/story-create" className="create">
             Create Story
           </Link>
+          <Link to="/login-signup" className="login-signup">
+            Login Logout
+          </Link>
         </div>
 
         <Route path="/stories-dashboard" component={StoriesDashboard} />
         <Route path="/story-create" component={StoryPage} />
         <Route path="/story-description" component={StoryDescription} />
+        <Route path="/login-logout" component={LogInPage} />
       </Router>
     </div>
   );

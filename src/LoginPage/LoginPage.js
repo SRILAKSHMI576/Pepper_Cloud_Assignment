@@ -1,9 +1,30 @@
 import React, { Component } from "react";
 
-class LoginPage extends Component {
+class LogInPage extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isLoggedIn: false
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick() {
+    this.setState(prevState => {
+      return {
+        isLoggedIn: !prevState.isLoggedIn
+      };
+    });
+  }
   render() {
-    return <div>div</div>;
+    let buttonText = this.state.isLoggedIn ? "Log Out" : "Log In";
+    let displayText = this.state.isLoggedIn ? "Logged In" : "Logged Out";
+    return (
+      <div>
+        <button onClick={this.handleClick}>{buttonText}</button>
+        <h1>{displayText}</h1>
+      </div>
+    );
   }
 }
 
-export default LogiNPage;
+export default LogInPage;
