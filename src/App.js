@@ -4,7 +4,7 @@ import StoryPage from "./StoryPage/StoryPage";
 import "./style.css";
 import StoriesDashboard from "./StoriesDashboard/StoriesDashboard";
 import StoryDescription from "./StoryDescription/StoryDescription";
-import LogInPage from "./LoginPage/LoginPage";
+import LoginSignup from "./LoginSignup/LoginSignup";
 
 function App() {
   return (
@@ -18,14 +18,14 @@ function App() {
             Create Story
           </Link>
           <Link to="/login-signup" className="login-signup">
-            Login Logout
+            Login
           </Link>
         </div>
 
         <Route path="/stories-dashboard" component={StoriesDashboard} />
         <Route path="/story-create" component={StoryPage} />
         <Route path="/story-description" component={StoryDescription} />
-        <Route path="/login-logout" component={LogInPage} />
+        <Route path="/login-signup" component={LoginSignup} />
       </Router>
     </div>
   );
