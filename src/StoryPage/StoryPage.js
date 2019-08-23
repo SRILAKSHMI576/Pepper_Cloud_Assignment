@@ -4,7 +4,12 @@ import "./style.css";
 function StoryPage() {
   return (
     <div>
-      <p className="title-1">Title...</p>
+      <input
+        type="text"
+        placeholder="Title..."
+        value="Title"
+        className="title-1"
+      />
       <textarea className="text-area" placeholder="Write a story..." />
     </div>
   );

@@ -2,10 +2,14 @@
   text-align: center;
   color: grey;
   font-size: 50px;
-  margin-left: -650px;
+  margin-left: 300px;
+  width: 50%;
+  margin-top: 20px;
+  padding: -5px;
 }
 .text-area {
   margin-left: 300px;
   width: 500px;
   height: 500px;
+  margin-top: 20px;
 }
