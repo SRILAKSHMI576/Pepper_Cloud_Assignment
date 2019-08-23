@@ -18,7 +18,7 @@ class LoginSignup extends Component {
   }
   render() {
     let displayText = this.state.isLoggedIn ? (
-      "hi"
+      ""
     ) : (
       <div className="login">
         <center>
@@ -28,7 +28,7 @@ class LoginSignup extends Component {
           </p>
           <p>
             Password:
-            <input type="password" placeholder="Username" required />
+            <input type="password" placeholder="Username" />
           </p>
           <button className="submit">Submit</button>
         </center>
