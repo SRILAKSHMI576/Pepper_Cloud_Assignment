@@ -19,4 +19,13 @@
 }
 .login-signup {
   float: right;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  border: 2px solid violet;
+  padding: 7px;
+  background: lightsalmon;
+}
+.login-signup:hover {
+  background: lightblue;
 }
