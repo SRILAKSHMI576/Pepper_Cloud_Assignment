@@ -17,7 +17,6 @@ class LoginSignup extends Component {
     });
   }
   render() {
-    // let buttonText = this.state.isLoggedIn ? "Log Out" : "Log In";
     let displayText = this.state.isLoggedIn ? (
       "hi"
     ) : (
@@ -37,7 +36,6 @@ class LoginSignup extends Component {
     );
     return (
       <div>
-        {/* <button onClick={this.handleClick}>{buttonText}</button> */}
         <h1>{displayText}</h1>
       </div>
     );

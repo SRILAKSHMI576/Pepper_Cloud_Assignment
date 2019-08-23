@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="router">
       <div className="example">
-        <div className="mobile-only">I'm a fancy mobile div</div>
-        <div className="desktop-only">I'm a heavy desktop div</div>
+        <div className="mobile-only" />
+        <div className="desktop-only" />
       </div>
       <Router>
         <div className="links">
