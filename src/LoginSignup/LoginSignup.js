@@ -16,11 +16,27 @@ class LoginSignup extends Component {
     });
   }
   render() {
-    let buttonText = this.state.isLoggedIn ? "Log Out" : "Log In";
-    let displayText = this.state.isLoggedIn ? "Logged In" : "Logged Out";
+    // let buttonText = this.state.isLoggedIn ? "Log Out" : "Log In";
+    let displayText = this.state.isLoggedIn ? (
+      "hi"
+    ) : (
+      <div>
+        <center>
+          <p>
+            Username:
+            <input type="email" placeholder="Email" required />
+          </p>
+          <p>
+            Password:
+            <input type="password" placeholder="Username" required />
+          </p>
+          <button>Submit</button>
+        </center>
+      </div>
+    );
     return (
       <div>
-        <button onClick={this.handleClick}>{buttonText}</button>
+        {/* <button onClick={this.handleClick}>{buttonText}</button> */}
         <h1>{displayText}</h1>
       </div>
     );

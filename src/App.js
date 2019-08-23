@@ -11,21 +11,24 @@ function App() {
     <div className="router">
       <Router>
         <div className="links">
+          <Link to="/login-signup" className="login-signup">
+            Login
+          </Link>
           <Link to="/stories-dashboard" className="home">
             Home
           </Link>
           <Link to="/story-create" className="create">
             Create Story
           </Link>
-          <Link to="/login-signup" className="login-signup">
-            Login
-          </Link>
+          <center>
+            <p className="logged-out">You are logged out please login</p>
+          </center>
         </div>
 
+        <Route path="/login-signup" component={LoginSignup} />
         <Route path="/stories-dashboard" component={StoriesDashboard} />
         <Route path="/story-create" component={StoryPage} />
         <Route path="/story-description" component={StoryDescription} />
-        <Route path="/login-signup" component={LoginSignup} />
       </Router>
     </div>
   );

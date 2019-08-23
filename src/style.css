@@ -22,10 +22,16 @@
   text-decoration: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
-  border: 2px solid violet;
-  padding: 7px;
-  background: lightsalmon;
+  padding: 14px 20px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
 }
 .login-signup:hover {
-  background: lightblue;
+  opacity: 0.8;
+}
+.logged-out {
+  margin-top: 170px;
+  font-size: 30px;
+  color: blue;
 }
