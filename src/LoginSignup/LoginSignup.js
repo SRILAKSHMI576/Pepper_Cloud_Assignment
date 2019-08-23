@@ -68,6 +68,7 @@ class LoginSignup extends Component {
     );
     return (
       <div>
+        {this.showHome()}
         <h1>{displayText}</h1>
       </div>
     );
