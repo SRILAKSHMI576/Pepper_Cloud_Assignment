@@ -11,6 +11,16 @@ class LoginSignup extends Component {
     };
     this.handleClick = this.handleClick.bind(this);
   }
+  changeUsername = e => {
+    this.setState({
+      username: e.target.value
+    });
+  };
+  changePassword = e => {
+    this.setState({
+      password: e.target.value
+    });
+  };
   handleClick() {
     this.setState(prevState => {
       return {
@@ -31,14 +41,16 @@ class LoginSignup extends Component {
               placeholder="Email"
               value={this.state.username}
               required
+              onChange={this.changeUsername}
             />
           </p>
           <p>
             Password:
             <input
               type="password"
-              placeholder="Username"
+              placeholder="Password"
               value={this.state.password}
+              onChange={this.changePassword}
             />
           </p>
           <button className="submit">Submit</button>
