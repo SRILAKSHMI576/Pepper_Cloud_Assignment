@@ -4,14 +4,15 @@ import { Redirect } from "react-router-dom";
 
 class LoginSignup extends Component {
   constructor() {
-    super();
-    this.state = {
-      isLoggedIn: false,
-      username: "name",
-      password: "word"
-    };
+    super(); 
     this.handleClick = this.handleClick.bind(this);
   }
+}
+  state = {
+    isLoggedIn: false,
+    username: "name",
+    password: "word"
+  };
   changeUsername = e => {
     this.setState({
       username: e.target.value
@@ -29,7 +30,7 @@ class LoginSignup extends Component {
       };
     });
   }
-  showHome(e) {
+  showHome = (e) => {
     if (this.state.isLoggedIn) {
       return (
         <Redirect
