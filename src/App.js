@@ -9,6 +9,10 @@ import LoginSignup from "./LoginSignup/LoginSignup";
 function App() {
   return (
     <div className="router">
+      <div className="example">
+        <div className="mobile-only">I'm a fancy mobile div</div>
+        <div className="desktop-only">I'm a heavy desktop div</div>
+      </div>
       <Router>
         <div className="links">
           <Link to="/login-signup" className="login-signup">
