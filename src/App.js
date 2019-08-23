@@ -20,9 +20,9 @@ function App() {
           <Link to="/story-create" className="create">
             Create Story
           </Link>
-          <center>
-            <p className="logged-out">You are logged out please login</p>
-          </center>
+          <Link to="login-signup" className="logged-out">
+            You are logged out please login
+          </Link>
         </div>
 
         <Route path="/login-signup" component={LoginSignup} />

@@ -31,7 +31,9 @@
   opacity: 0.8;
 }
 .logged-out {
-  margin-top: 170px;
-  font-size: 30px;
+  margin-top: 470px;
+  font-size: 20px;
   color: blue;
+  text-decoration: none;
+  margin-left: 125px;
 }
