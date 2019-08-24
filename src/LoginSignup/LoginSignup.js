@@ -60,7 +60,7 @@ class LoginSignup extends Component {
               onChange={this.changePassword}
             />
           </p>
-          <button className="submit" onClick={this.showHome}>
+          <button className="submit" onClick={this.handleClick}>
             Submit
           </button>
         </center>
